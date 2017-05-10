@@ -1,0 +1,19 @@
+{
+  "name": "GitHub Formatter",
+  "version": "0.1",
+  "description": "Spice up your BORING LAME-ASS OLD-TIMER INSECURITY ABOUT GROWING OLD Github CSS with this ONFLEEK LIT AF FLEXING SALTY chrome extension FAM BAE AND OTHER SLANG KEYWORDS",
+  "author": "sidthekidder",
+  "manifest_version": 2,
+  "minimum_chrome_version": "20",
+  "content_scripts": [{
+    "js": ["src/js/github-formatter.js"],
+    "css": ["src/css/github-formatter.css"],
+    "matches": ["https://github.com/*"]
+  }],
+  "icons": {
+    "64": "assets/icon-64.png"
+  },
+  "permissions": [
+    "https://github.com/*"
+  ]
+}
